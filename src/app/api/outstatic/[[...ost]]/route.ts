@@ -1,5 +1,7 @@
-import { OutstaticApi } from 'outstatic'
+import { OutstaticApi } from "outstatic";
 
-export const GET = OutstaticApi.GET
+export const runtime = "edge";
 
-export const POST = OutstaticApi.POST
+export const GET = OutstaticApi.GET;
+
+export const POST = OutstaticApi.POST;

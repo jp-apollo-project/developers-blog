@@ -70,8 +70,10 @@ pages_build_output_dir = ".vercel/output/static"
 
 ######## PREVIEW environment config ########
 
-# [env.preview.vars]
-# API_KEY = "xyz789"
+[env.preview.vars]
+# OST_GITHUB_SECRET = <secret>
+OST_REPO_SLUG = "developers-blog"
+OST_GITHUB_ID = "Ov23ct5lUD2eTx0oNveG"
 
 # [[env.preview.kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
@@ -79,8 +81,9 @@ pages_build_output_dir = ".vercel/output/static"
 
 ######## PRODUCTION environment config ########
 
-# [env.production.vars]
-# API_KEY = "abc123"
+[env.production.vars]
+OST_REPO_SLUG = "developers-blog"
+OST_GITHUB_ID = "Ov23ct5lUD2eTx0oNveG"
 
 # [[env.production.kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
